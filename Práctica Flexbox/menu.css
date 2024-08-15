@@ -1,0 +1,48 @@
+.logo img{
+    width: 90px;
+}
+
+.menu{
+    background-color: gainsboro;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.enlaces ul{
+    list-style: none;/*Quitar o poner viñetas a listas*/
+    display: flex;
+    
+}
+
+.enlaces{
+    display: flex;
+    align-items: center;
+}
+
+.enlaces ul li{
+    margin-left: 5px;
+}
+
+.enlaces ul li a{
+    text-decoration: none;/*Quitar o poner estilo al texto*/
+    color: black;
+    text-transform: uppercase;/*Convertir letras a mayúsculas*/
+    font-weight: bold;/*Agregar negrita*/
+    font-size: 18px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.botones a{
+    text-decoration: none;
+    color: black;
+    background-color: pink;
+    padding: 5px 7px;
+    margin-right: 5px;
+}
+
